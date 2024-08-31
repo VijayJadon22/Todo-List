@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="dropdown-div" >
+        <div class="create-category">
+            <input id="input" type="text" placeholder="Add Category" style="text-align: center;">
+            <button class="addbtn">Add</button>
+        </div>
+        <div id="category-dropdown">
+            <label for="dropdown">Select Category:</label>
+            <select name="dropdown" id="dropdown">
+               
+            </select>
+        </div>
+    </div>
+
+    <div class="main-container">
+
+
+        <div class="task-container">
+            <h2 class="heading">To-do List <img
+                    src="https://cdn2.iconfinder.com/data/icons/flat-productivity-at-work/256/To-Do_List-1024.png"
+                    alt="to do list"></h2>
+            <div class="inputarea">
+                <input class="input" type="text" placeholder="Add your task">
+                <button class="add">Add</button>
+            </div>
+            <div class="show-category">All Tasks</div>
+            <div class="listcontainer">
+                <!-- <li>Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+            </div>
+        </div>
+        <div class="select-category">
+            <h3 class="taskCategory-heading">Task Category</h3>
+            <div class="input-button-div">
+                <input id="category-input" type="text" placeholder="Add New Category" style="text-align: center">
+                <button id="add-category" class="addbtn">Add</button>
+                
+            </div>
+            
+            <div class="category-list">
+
+            </div>
+            
+        </div>
+
+        
+
+    </div>
+
+
+
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
